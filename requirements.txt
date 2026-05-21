@@ -1,0 +1,31 @@
+# artcrypto requirements (pinned for reproducible builds)
+# Core numerics and imaging
+numpy==2.4.6            # NumPy 2.4.6 — released 2026-05-18
+Pillow==12.2.0          # Pillow 12.2.0 — released 2026-04-01
+pycairo==1.29.0         # pycairo 1.29.0 — released 2025-11-11
+generativepy==24.11     # generativepy 24.11 — released 2024-11-23
+moderngl==5.12.0        # ModernGL 5.12.0 — released 2024-10-17
+
+# Procedural / noise / signal
+opensimplex==0.4.5.1    # OpenSimplex 0.4.5.1 — released 2024-05-01
+perlin-noise==1.14      # perlin-noise 1.14 — released 2025-04-12
+scipy==1.17.1           # SciPy 1.17.1 — released 2026-02-22
+soundfile==0.13.1       # python-soundfile 0.13.1 — released 2025-01-25
+pyrtlsdr==0.4.0         # pyrtlsdr 0.4.0 — released 2026-03-01
+
+# Steganography / helpers
+stegano==2.4.1          # Stegano 2.4.1 — released 2026-03-26
+
+# CLI / GUI / tooling
+click==8.4.0            # Click 8.4.0 — released 2026-05-16
+PySide6==6.11.1         # PySide6 6.11.1 — released 2026-05-13
+pytest==9.0.3           # pytest 9.0.3 — released 2026-04-07
+
+# Crypto (classical + PQ wrappers)
+cryptography==48.0.0    # pyca/cryptography 48.0.0 — released 2026-05-04
+pyoqs-sdk==1.0          # pyoqs-sdk 1.0 (wrapper for liboqs) — released 2023-04-29
+# NOTE: liboqs (C library) must be built/installed separately before pyoqs-sdk use.
+
+# Optional (image/audio processing extras)
+python-magic==0.4.27
+imageio==2.28.0
