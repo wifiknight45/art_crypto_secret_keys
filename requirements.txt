@@ -22,7 +22,7 @@ PySide6==6.11.1         # PySide6 6.11.1 — released 2026-05-13
 pytest==9.0.3           # pytest 9.0.3 — released 2026-04-07
 
 # Crypto (classical + PQ wrappers)
-cryptography==48.0.0    # pyca/cryptography 48.0.0 — released 2026-05-04
+cryptography==48.0.1    # pyca/cryptography 48.0.0 — released 2026-05-04
 pyoqs-sdk==1.0          # pyoqs-sdk 1.0 (wrapper for liboqs) — released 2023-04-29
 # NOTE: liboqs (C library) must be built/installed separately before pyoqs-sdk use.
 
